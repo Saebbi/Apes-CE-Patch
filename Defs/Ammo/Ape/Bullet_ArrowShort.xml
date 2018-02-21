@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>AmmoPOTAArrow</defName>
+      <label>Short Arrow</label>
+      <parent>AmmoApe</parent>
+      <iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+    </ThingCategoryDef>
+	
+	<!-- ==================== AmmoSet ========================== -->
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_POTAArrow</defName>
+    <label>Short Arrow</label>
+    <ammoTypes>
+      <Ammo_POTAArrow>POTAArrow_Short</Ammo_POTAArrow>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+	
+	<!-- ==================== Ammo ========================== -->
+
+  <ThingDef Name="POTAArrowBase" ParentName="AmmoBase" Abstract="True">
+    <description>Short Arrow</description>
+    <statBases>
+	  <Mass>0.05</Mass>
+	  <Bulk>0.1</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories>
+      <li>AmmoPOTAArrow</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="POTAArrowBase">
+    <defName>Ammo_POTAArrow</defName>
+    <label>Short Arrow</label>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/BowShort</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.95</MarketValue>
+    </statBases>
+    <ammoClass>SteelArrow</ammoClass>
+  </ThingDef>
+	
+	<!-- ================== Projectiles ================== -->
+
+  <ThingDef Name="BasePOTAArrow" ParentName="BaseBullet" Abstract="true">
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Stab</damageDef>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BasePOTAArrow">
+    <defName>POTAArrow_Short</defName>
+    <label>Short Arrow</label>
+    <projectile>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetration>0.3</armorPenetration>
+    </projectile>
+  </ThingDef>
+	
+</Defs>

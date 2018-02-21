@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>AmmoJavelin</defName>
+      <label>Javelin</label>
+      <parent>AmmoApe</parent>
+      <iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+    </ThingCategoryDef>
+	
+	<!-- ==================== AmmoSet ========================== -->
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_Javelin</defName>
+    <label>Javelin</label>
+    <ammoTypes>
+      <Ammo_Javelin>POTAJavelin_Thrown</Ammo_Javelin>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+	
+	<!-- ==================== Ammo ========================== -->
+
+  <ThingDef Name="JavelinBase" ParentName="AmmoBase" Abstract="True">
+    <description>Javelin</description>
+    <statBases>
+	  <Mass>0.05</Mass>
+	  <Bulk>0.1</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories>
+      <li>AmmoJavelin</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="JavelinBase">
+    <defName>Ammo_Javelin</defName>
+    <label>Javelin</label>
+    <graphicData>
+      <texPath>ApeJavelin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.95</MarketValue>
+    </statBases>
+    <ammoClass>Javelin</ammoClass>
+  </ThingDef>
+	
+	<!-- ================== Projectiles ================== -->
+
+  <ThingDef Name="BaseJavelin" ParentName="BaseBullet" Abstract="true">
+    <graphicData>
+      <texPath>Bullet_ApeJavelin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Stab</damageDef>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseJavelin">
+    <defName>POTAJavelin_Thrown</defName>
+    <label>Javelin</label>
+    <projectile>
+      <damageAmountBase>60</damageAmountBase>
+      <armorPenetration>0.3</armorPenetration>
+    </projectile>
+  </ThingDef>
+	
+</Defs>
