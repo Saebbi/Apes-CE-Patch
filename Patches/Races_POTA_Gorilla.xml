@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
-		<xpath>*/ThingDef[@Name="POTA_Gorilla_RaceBase"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
+		<xpath>*/ThingDef[@Name="BasePOTAGorillaRaceInit"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
 		<value>
 			<li>CombatExtended.ITab_Inventory</li>
 		</value>
@@ -10,7 +10,7 @@
 
 	<Operation Class="PatchOperationAdd">
 		<success>Always</success>
-		<xpath>*/ThingDef[@Name="POTA_Gorilla_RaceBase"]/comps</xpath>
+		<xpath>*/ThingDef[@Name="BasePOTAGorillaRaceInit"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_Inventory" />
 		</value>
@@ -38,30 +38,30 @@
 					<capacities>
 						<li>Blunt</li>
 					</capacities>
-					<power>11</power>
+					<power>12</power>
 					<cooldownTime>1.6</cooldownTime>
 					<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-					<armorPenetration>0.1</armorPenetration>
+					<armorPenetration>0.15</armorPenetration>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>right fist</label>
 					<capacities>
 						<li>Blunt</li>
 					</capacities>
-					<power>11</power>
+					<power>12</power>
 					<cooldownTime>1.6</cooldownTime>
 					<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-					<armorPenetration>0.1</armorPenetration>
+					<armorPenetration>0.15</armorPenetration>
 				</li>
 				<li Class="CombatExtended.ToolCE">
 					<label>Bite</label>
 					<capacities>
 						<li>Stab</li>
 					</capacities>
-					<power>10</power>
+					<power>16</power>
 					<cooldownTime>1.8</cooldownTime>
 					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-					<armorPenetration>0.1</armorPenetration>
+					<armorPenetration>0.25</armorPenetration>
 				</li>
 			</tools>
 		</value>
