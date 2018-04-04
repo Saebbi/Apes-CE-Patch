@@ -8,8 +8,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>4</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -20,8 +20,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>4</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -32,8 +32,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>4</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -44,9 +44,23 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>3</min>
+          <max>4</max>
         </primaryMagazineCount>
+        <forcedSidearm>
+          <sidearmMoney>
+            <min>1000</min>
+            <max>2000</max>
+          </sidearmMoney>
+          <weaponTags>
+            <li>ApeMelee</li>
+            <li>NonNeolithicOnlyMelee</li>
+          </weaponTags>
+          <magazineCount>
+            <min>4</min>
+            <max>5</max>
+          </magazineCount>
+        </forcedSidearm>
       </li>
     </value>
   </Operation>
@@ -56,8 +70,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>3</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -68,8 +82,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>3</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -80,8 +94,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>4</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -92,9 +106,23 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>3</min>
+          <max>4</max>
         </primaryMagazineCount>
+        <forcedSidearm>
+          <sidearmMoney>
+            <min>1000</min>
+            <max>2000</max>
+          </sidearmMoney>
+          <weaponTags>
+            <li>ApeMelee</li>
+            <li>NonNeolithicOnlyMelee</li>
+          </weaponTags>
+          <magazineCount>
+            <min>4</min>
+            <max>5</max>
+          </magazineCount>
+        </forcedSidearm>
       </li>
     </value>
   </Operation>
@@ -104,8 +132,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>3</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -116,8 +144,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>3</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -128,8 +156,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>3</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -140,9 +168,23 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>3</max>
         </primaryMagazineCount>
+        <forcedSidearm>
+          <sidearmMoney>
+            <min>1000</min>
+            <max>2000</max>
+          </sidearmMoney>
+          <weaponTags>
+            <li>ApeMelee</li>
+            <li>NonNeolithicOnlyMelee</li>
+          </weaponTags>
+          <magazineCount>
+            <min>4</min>
+            <max>5</max>
+          </magazineCount>
+        </forcedSidearm>
       </li>
     </value>
   </Operation>
@@ -152,8 +194,8 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>3</max>
         </primaryMagazineCount>
       </li>
     </value>
@@ -164,9 +206,23 @@
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
-          <min>5</min>
-          <max>8</max>
+          <min>2</min>
+          <max>3</max>
         </primaryMagazineCount>
+        <forcedSidearm>
+          <sidearmMoney>
+            <min>1000</min>
+            <max>2000</max>
+          </sidearmMoney>
+          <weaponTags>
+            <li>ApeMelee</li>
+            <li>NonNeolithicOnlyMelee</li>
+          </weaponTags>
+          <magazineCount>
+            <min>4</min>
+            <max>5</max>
+          </magazineCount>
+        </forcedSidearm>
       </li>
     </value>
   </Operation>

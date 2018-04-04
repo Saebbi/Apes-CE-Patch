@@ -39,7 +39,7 @@
     <defName>Ammo_POTAArrow</defName>
     <label>Short Arrow</label>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BowShort</texPath>
+      <texPath>Things/Ammo/Neolithic/Arrow/Steel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
